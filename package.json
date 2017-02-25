@@ -1,0 +1,24 @@
+{
+  "name": "worldbuild",
+  "version": "0.0.0",
+  "description": "create a world and simulate a history. tell the story from the perspective of an individual, institution, or world",
+  "main": "build/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "author": "whtevn",
+  "license": "ISC"
+}
